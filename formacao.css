@@ -103,14 +103,5 @@
   font-size: 1.125rem;
  }
 }
-@media(max-width:800px){
-  .formacao-lista{
-  gap: 10px;
- }
-}
-@media(max-width:600px){
-  .formacao-lista li{
-  padding: 10px;
- }
-}
+
 
