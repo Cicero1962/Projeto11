@@ -1,3 +1,12 @@
+
+.formacao{
+  background-color: #141414;
+  color: #ffffff;
+  width: 100vw;
+}
+.formacao-container .subtitulo{
+  color: #000000;
+}
 .formacao-container{
   display: grid;
   max-width: 1200px;
@@ -7,10 +16,7 @@
   padding: 120px 20px;
   position: relative;
 }
-.formacao{
-  background-color: rgba(0, 0, 0, 0.904);
-}
-.faculdade{
+.faculdade{ 
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -23,7 +29,6 @@
   line-height: 1.33;
   width: 40ch;
   margin-bottom: 60px;
-  color: white;
 }
 .faculdade-lista{
   display: flex;
@@ -43,7 +48,7 @@
   font-size: 1.125rem;
   font-weight: bold;
   margin-bottom: 40px;
-  color: white;
+  
 }
 .faculdade-curso::before{
   display: block;
