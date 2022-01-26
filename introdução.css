@@ -11,6 +11,7 @@
   position: relative;
   font-size: 4.5rem;
   line-height: 1.125;
+  margin-bottom: 30px;
 }
 .introducao h1::before{
   content: "";
@@ -32,12 +33,23 @@
   object-fit: cover;
   height: 100%;
 }
-@media(max-width:800px){
+@media(max-width:1000px){
+  .introducao h1{
+    font-size: 3rem;
+  }
+}
+@media(max-width:700px){
   .introducao h1{
     font-size: 2rem;
   }
 }
-@media(max-width:500px){
+@media(max-width:1000px){
+  .introducao {
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width:600px){
   .introducao img{
     display: none;}
 }
