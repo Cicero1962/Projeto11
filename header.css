@@ -26,6 +26,7 @@
   .header-menu a{
     font-size: 1rem;
     align-content: center;
+    padding: 5px 10px;
   }
   .header{
     gap: 40px;
