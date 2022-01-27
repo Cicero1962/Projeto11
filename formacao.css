@@ -27,7 +27,7 @@
 .formacao-texto{
   font-size: 1.5rem;
   line-height: 1.33;
-  width: 40ch;
+  max-width:  40ch;
   margin-bottom: 60px;
 }
 .faculdade-lista{
@@ -130,6 +130,12 @@
   .formacao-texto{
     font-size: 1.125rem;
    }
+}
+@media(max-width:800px){
+  .formacao-extra h3::before{
+    top: -20px;
+    left: 0px;
+  }
 }
 
  
